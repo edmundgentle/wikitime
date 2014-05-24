@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteOptions Inherit
+
+RewriteRule ^wiki/(.*)$ index2.php?p=$1&%{QUERY_STRING}

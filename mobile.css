@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    padding-top: 40px;
+}
+.title {
+    float: none;
+    background: #f75d0c;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f98649', endColorstr='#f75d0c');
+	background: -webkit-gradient(linear, left top, left bottom, from(#f98649), to(#f75d0c));
+	background: -moz-linear-gradient(top,  #f98649,  #f75d0c);
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+    color: #FFF;
+    border-bottom: solid #ad4108 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+.title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+.title h1 a {
+    color: #FFF;
+}
+.title h1 a:hover {
+    color: #FFF;
+}
+.infopane {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+.infopane h2 {
+    text-align: center;
+    font-size: 33px;
+}
+.image {
+    margin-left: 7px;
+}
+.infopane .info {
+    margin-left: 130px;
+}
+.timeline {
+    width: 100%;
+    margin: 0;
+}
+.timeline_line {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.timeline .events li.bubble .aub {
+    left: 50%;
+    top: -32px;
+}
+.timeline .events li.bubble {
+    margin: 5px;
+    margin-top: 40px;
+}
+.timeline .events li.bubble:before {
+    border-right-color: rgba(0,0,0,0);
+    border-bottom-color: #f97e3d;
+    left: 50%;
+}
+.timeline .events li.bubble:after {
+    border-right-color: rgba(0,0,0,0);
+    border-bottom-color: #fff;
+    left: 50%;
+    top: -8px;
+}
+.timeline .events li.bubble.picture img {
+	max-width:100%;
+	border-radius:4px;
+}
+.timeline .events li.bubble .date {
+	display:block;
+	padding-right:0;
+	padding-bottom:5px;
+	width:100%;
+	text-align:center;
+}
+.timeline .events li.bubble .main {
+	display:block;
+	max-width:100%;
+	text-align:center;
+}
+.timeline .events li.bubble.key .main {
+	display:block;
+	padding:0;
+	padding-bottom:5px;
+	width:100%;
+	text-align:center;
+}
+.timeline .events li.bubble.key .details {
+	display:block;
+	width:100%;
+	text-align:center;
+}
